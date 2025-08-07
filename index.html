@@ -1,26 +1,51 @@
-<!-- Donation Section -->
-<section class="w-full bg-white py-16 px-6 md:px-20" id="donate">
-  <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-12">
-    
-    <!-- Text Content -->
-    <div class="flex-1 space-y-6 animate-fade-in">
-      <h2 class="text-4xl font-bold text-[#38b6ff]">How Can You Support Us?</h2>
-      <p class="text-gray-700 text-lg">
-        Your support enables us to drive real change. Whether you're donating your time, money, or resources —
-        every contribution counts. Join us in making a lasting impact on communities in need.
-      </p>
-      <ul class="list-disc list-inside text-gray-700 text-md space-y-2">
-        <li>Contribute monthly to help sustain our programs</li>
-        <li>Volunteer with us on the ground or remotely</li>
-        <li>Donate supplies, equipment, or educational materials</li>
-        <li>Spread the word through social media and networks</li>
-      </ul>
-    </div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CARE Foundation - Donation</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  </head>
+  <body class="bg-white text-gray-800">
 
-    <!-- Dummy Themed Image -->
-    <div class="flex-1">
-      <img src="./assets/donation_dummy.jpg" alt="Donate to NGO" class="rounded-xl shadow-lg w-full object-cover max-h-[400px]" />
-    </div>
-    
-  </div>
-</section>
+    <!-- Donation Section -->
+    <section class="py-16 px-6 md:px-16 bg-white" id="donate">
+      <h2 class="text-3xl md:text-4xl font-bold text-center text-[#38b6ff] mb-12">
+        How Can You Support Us?
+      </h2>
+
+      <!-- Tiles Grid -->
+      <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+        <!-- Tile 1 -->
+        <div class="bg-white shadow-lg rounded-xl p-6 hover:shadow-xl transition duration-300 border-t-4 border-[#38b6ff]">
+          <h3 class="text-xl font-semibold mb-2 text-[#38b6ff]">Donate Money</h3>
+          <p class="text-sm text-gray-600">Support our cause financially and help us sustain our efforts.</p>
+        </div>
+
+        <!-- Tile 2 -->
+        <div class="bg-white shadow-lg rounded-xl p-6 hover:shadow-xl transition duration-300 border-t-4 border-[#38b6ff]">
+          <h3 class="text-xl font-semibold mb-2 text-[#38b6ff]">Volunteer with Us</h3>
+          <p class="text-sm text-gray-600">Give your time to make a real-world impact in our community programs.</p>
+        </div>
+
+        <!-- Tile 3 -->
+        <div class="bg-white shadow-lg rounded-xl p-6 hover:shadow-xl transition duration-300 border-t-4 border-[#38b6ff]">
+          <h3 class="text-xl font-semibold mb-2 text-[#38b6ff]">Sponsor a Project</h3>
+          <p class="text-sm text-gray-600">Choose a cause you believe in and fund it directly with full transparency.</p>
+        </div>
+
+        <!-- Tile 4 -->
+        <div class="bg-white shadow-lg rounded-xl p-6 hover:shadow-xl transition duration-300 border-t-4 border-[#38b6ff]">
+          <h3 class="text-xl font-semibold mb-2 text-[#38b6ff]">Spread the Word</h3>
+          <p class="text-sm text-gray-600">Help raise awareness by sharing our mission with your network.</p>
+        </div>
+      </div>
+
+      <!-- Large Image -->
+      <div class="mt-16">
+        <img src="images/support-dummy.jpg" alt="Support Us" class="w-full h-auto rounded-xl shadow-md" />
+      </div>
+    </section>
+
+  </body>
+</html>
